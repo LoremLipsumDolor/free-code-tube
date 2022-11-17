@@ -1,0 +1,1 @@
+2022/11/16 21:20:58 [error] 22020#22020: *1 directory index of "/home/margo/projects/php/FreeCodeTube/backend/web/" is forbidden, client: 127.0.0.1, server: freecodetube-back.loc, request: "GET / HTTP/1.1", host: "freecodetube-back.loc"

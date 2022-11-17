@@ -1,0 +1,112 @@
+2022/11/16 21:21:57 [error] 22020#22020: *2 directory index of "/home/margo/projects/php/FreeCodeTube/frontend/web/" is forbidden, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", host: "freecodetube.loc"
+2022/11/17 15:13:52 [error] 899#899: *14 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:14:17 [error] 899#899: *14 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:15:16 [error] 899#899: *14 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:16:24 [error] 899#899: *18 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:23:03 [error] 899#899: *20 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:28:48 [error] 899#899: *24 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/p" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:28:48 [error] 899#899: *24 FastCGI sent in stderr: "hp/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:36:07 [error] 899#899: *26 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:36:32 [error] 899#899: *28 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:37:40 [error] 899#899: *30 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:48:20 [error] 899#899: *32 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
+2022/11/17 15:53:09 [error] 899#899: *34 FastCGI sent in stderr: "PHP message: An Error occurred while handling another error:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php:368
+Stack trace:
+#0 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/Response.php(341): yii\web\Response->sendHeaders()
+#1 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/web/ErrorHandler.php(136): yii\web\Response->send()
+#2 /home/margo/projects/php/FreeCodeTube/vendor/yiisoft/yii2/base/ErrorHandler.php(152): yii\web\ErrorHandler->renderException(Object(yii\web\HeadersAlreadySentException))
+#3 [internal function]: yii\base\ErrorHandler->handleException(Object(yii\web\HeadersAlreadySentException))
+#4 {main}
+Previous exception:
+yii\web\HeadersAlreadySentException: Headers already sent in /home/margo/projects/php/FreeCodeTube/frontend/controllers/SiteController.php on line 78. in /home/margo/" while reading upstream, client: 127.0.0.1, server: freecodetube.loc, request: "GET / HTTP/1.1", upstream: "fastcgi://unix:/var/run/php/php8.1-fpm.sock:", host: "freecodetube.loc"
