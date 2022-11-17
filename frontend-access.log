@@ -161,3 +161,5 @@
 127.0.0.1 - - [17/Nov/2022:19:17:30 +0300] "GET /debug/default/toolbar?tag=63765e99ca95d HTTP/1.1" 200 3498 "http://freecodetube.loc/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
 127.0.0.1 - - [17/Nov/2022:19:18:48 +0300] "GET / HTTP/1.1" 200 8671 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
 127.0.0.1 - - [17/Nov/2022:19:18:49 +0300] "GET /debug/default/toolbar?tag=63765ee8ba54a HTTP/1.1" 200 3499 "http://freecodetube.loc/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
+127.0.0.1 - - [17/Nov/2022:20:10:52 +0300] "GET / HTTP/1.1" 200 8676 "-" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
+127.0.0.1 - - [17/Nov/2022:20:10:52 +0300] "GET /debug/default/toolbar?tag=63766b1c0b6c1 HTTP/1.1" 200 3493 "http://freecodetube.loc/" "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:107.0) Gecko/20100101 Firefox/107.0"
